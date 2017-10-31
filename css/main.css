@@ -1,0 +1,127 @@
+.navbar{
+  margin-bottom: 40px;
+  border-radius: 0;
+  background-color: white;
+  color:#746f6e;
+  border: white;
+  padding:1% 0;
+  font-size: 10pt;
+  border:0;
+  width: 95%;
+}
+
+.navbar-toggle{
+  background-color: #746f6e;
+  color:white;
+  border:#746f6e;
+}
+
+.collapse navbar-collapse{
+ background-color: #746f6e;
+  color:white;
+  border:#746f6e;
+}
+
+.navbar-brand{
+  float:left;
+  min-height:55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus{
+  color:#746f6e;
+  background-color:white;
+}
+
+.navbar-inverse .navbar-nav .active a:hover{
+  color:#c4c2c0;
+  background-color:white;
+}
+
+
+.carousel-caption{
+  top:50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 18px;
+  color:white;
+  padding: 12px 22px;
+  background-color:#746f6e;
+}
+
+@media(max-width: 600px) {
+  .carousel-caption{
+    display:none;
+  }
+}
+
+.carousel slide{
+  text-align: center;
+  position:relative;
+  margin-left:20px;
+}
+
+footer{
+  width:100%;
+  background-color: white;
+  padding:13%;
+  color:#746f6e;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #746f6e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #746f6e;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.aeroflot{
+  text-align: center;
+}
+
+.advil{
+ text-align: center;
+}
+
+.greyhound{
+  text-align:center;
+}
+
+.right{
+  float:right;
+  padding-right: 5%;
+  color:#746f6e;
+}
+
+.left{
+  float:left;
+  padding-left:5%;
+  margin-top:-350px;
+}
+
